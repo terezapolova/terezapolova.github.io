@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="Art but make it Bark is a project about dogs as symbols and inspiration in art."/>
+  <meta name="viewpoint" content="width=device-width", initial-scale=1.0"/>
+  <title> Dogs in Art </title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f9f9f9;
+      color: #333;
+      font-family: 'Montserrat', sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+
+    header {
+      text-align: center;
+      padding: 50px 20px 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 3em;
+      font-family: 'Playfair Display', serif;
+    }
+
+    header p {
+      margin: 5px 0;
+      font-style: italic;
+    }
+
+    header a {
+      color: #555;
+      text-decoration: none;
+    }
+
+    header a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    h2 {
+      font-size: 2em;
+      font-family: 'Playfair Display', serif;
+      margin-top: 40px;
+    }
+
+    .about {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .about img {
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+    }
+
+    .about p {
+      flex: 1;
+      margin: 0;
+    }
+    .grid-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+    }
+
+    .grid-gallery img {
+      width: 100%;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+    }
+
+    .grid-gallery img:hover {
+      transform: scale(1.05);
+    }
+
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Dogs in Art</h1>
+    <p> by <a href="https://www.instagram.com/art_but_make_it_bark/"> @art_but_make_it_bark</a> </p>
+    <p>It's strange how important the dog is in art.<br>
+      It can be a symbol or an inspiration.<br>
+      Both are interesting to observe.
+    </p>
+  </header>
+
+  <main>
+    <h2>About us</h2>
+    <div class="about">
+      <img src="profile_insta.png" alt="profile picture">
+      <p> We are two travellers who love dogs and art and the combination of them both. </p>
+    </div>
+    <h2> Art in Belgian Galleries </h2>
+    <div class="grid-gallery">
+      <div class="card">
+        <img src="Gent_sq.png" alt="Two Friends">
+        <div class="card-content">
+          <h3> Two Friends </h3> <br>
+          <i> by Edmund Van der Meulen
+          <p> Opening this insta collection of dogs in art with the Belgian painting. It is very romantic both in style and substance.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="Brugge_cut.png" alt="Flemish Masterpiece Crucifixion detail">
+        <div class="card-content">
+          <h3> Flemish Masterpiece Crucifixion detail </h3>
+          <p>Small deatail of mid 15th century Flemish Masterpiece Crucifixion. Dogs don't just symbolize cuteness in our culture but also the fidelity. See the dog's reaction to Jesus' suffering. Barking like any other watchfull dog. It's a question why the unknown painter wanted us to think about the connection between Jesus Christ and the dog.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="Gent2_cut.png" alt="The Expulsion">
+        <div class="card-content">
+          <h3>The Expulsion</h3>
+          <i> by Charlse Degroux
+          <p>Small reminder from the 19th century painting, which realisticly depicts the missery of the expulsed family, that dogs are always with us. Unlike the previous post, the dog is not a symbol but complements the intention of a painter to realistically point out one of many problems of industrial society.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
